@@ -1,0 +1,15 @@
+body {
+    font-family:'Rubik', sans-serif;
+}
+
+.fix {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+
+}
+
+.imagelink {
+    display: flex;
+    text-align: center;
+}
