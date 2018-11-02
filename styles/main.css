@@ -3,13 +3,50 @@ body {
 }
 
 .fix {
-    display: inline-block;
-    text-align: center;
-    list-style: none;
+   
+    align-content: center;
+    width: 100%;
 
 }
 
 .imagelink {
     display: flex;
+    text-align: center;
+    margin-top: 10px;
+    padding: auto;
+
+}
+
+.options {
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+
+
+
+.diversity {
+    background-color: #3cdbc0;
+    font-size: 30px;
+    background-size: 100%;
+
+
+
+
+}
+
+.title {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
