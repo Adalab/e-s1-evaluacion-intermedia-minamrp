@@ -2,26 +2,19 @@ body {
     font-family:'Rubik', sans-serif;
     margin: 0;
 }
-
-.fix {
-   
+.fix {  
     justify-content: center;
     width: 100%;
     position: fixed;
     z-index: 1;
     background-color: #ffffff
-
 }
-
 .imagelink {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     padding: auto;
-
-
 }
-
 .options {
     padding: 0;
     display:flex;
@@ -33,11 +26,9 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .item1 {
     margin-right: 20px;
 }
-
 .diversity {
     background-color: #3cdbc0;
     font-size: 30px;
@@ -45,39 +36,31 @@ body {
     height: 100vh;
     padding-top: 50%;
 }
-
 .title {
     color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
-
 @media all and (min-width: 765px) {
-
     .fix{
         display: flex;
     }  
-
     .barnav{
         display: flex;
         width: 100%;
         justify-content: space-between;
-
     }
-
     .options{
         align-items: center;
         margin-right: 30px;
         font-size: 16px;
     }
-
     .imagelink{
         margin-left: 30px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
     .title{
         font-weight: 1200;
         margin: auto;
@@ -86,10 +69,4 @@ body {
         height: 300px;
         width: 250px;
     }
-
-    /* .diversity{
-        height: 100vw;
-    } */
-
-
 }
